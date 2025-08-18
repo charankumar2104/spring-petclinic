@@ -1,6 +1,3 @@
-    cd spring-petclinic && \
-    mvn package
-
 # Use Maven with Eclipse Temurin JDK 17 as the build image
 FROM maven:3.9.11-eclipse-temurin-17 AS build
 
